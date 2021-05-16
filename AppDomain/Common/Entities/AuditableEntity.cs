@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace AppDomain.Common
+namespace AppDomain.Common.Entities
 {
-    public abstract class AuditableEntity
+    public interface IAudit{}
+
+    public abstract class AuditableEntity:IAudit
     {
         public DateTime Created { get; set; }
 
