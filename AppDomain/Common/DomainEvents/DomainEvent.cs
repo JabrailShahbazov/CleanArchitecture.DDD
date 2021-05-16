@@ -1,10 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace AppDomain.Common.DomainEvents
 {
+    public interface IHasDomainEvent
+    {
+        public List<DomainEvent> DomainEvents { get; set; }
+    }
+
     public abstract class DomainEvent
     {
         protected DomainEvent()
