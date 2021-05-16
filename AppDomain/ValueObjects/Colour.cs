@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using AppDomain.Common;
+using AppDomain.Common.ValueObjects;
 using AppDomain.Exceptions;
 
 namespace AppDomain.ValueObjects
