@@ -4,7 +4,7 @@ namespace AppDomain.Common.Entities
 {
     public interface IAudit{}
 
-    public abstract class AuditableEntity:IAudit
+    public interface  IAuditableEntity:IAudit
     {
         public DateTime Created { get; set; }
 
