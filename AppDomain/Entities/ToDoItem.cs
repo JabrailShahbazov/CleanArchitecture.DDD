@@ -37,7 +37,7 @@ namespace AppDomain.Entities
             {
                 if (value == true && _done == false)
                 {
-                    DomainEvents.Add(new TodoItemCompletedEvent(this));
+                    DomainEvents.Add(new ToDoItemCompletedEvent(this));
                 }
 
                 _done = value;

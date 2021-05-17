@@ -8,9 +8,9 @@ using AppDomain.Entities;
 
 namespace AppDomain.Events
 {
-    public class TodoItemCreatedEvent : DomainEvent
+    public class ToDoItemCreatedEvent : DomainEvent
     {
-        public TodoItemCreatedEvent(ToDoItem item)
+        public ToDoItemCreatedEvent(ToDoItem item)
         {
             Item = item;
         }
