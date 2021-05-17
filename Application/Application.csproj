@@ -17,8 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ToDoItems\" />
-    <Folder Include="ToDoLists\" />
+    <Folder Include="ToDoItems\Queries\" />
+    <Folder Include="ToDoLists\CreateToDoList\" />
+    <Folder Include="ToDoLists\DeleteToDoList\" />
+    <Folder Include="ToDoLists\UpdateToDoList\" />
   </ItemGroup>
 
 </Project>
